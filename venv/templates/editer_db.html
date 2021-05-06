@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container bg-secondary">
+    <h2>edit</h2>
+    <form method="post">
+        <input type="text" class="alert" name="title" id="title" placeholder="Заголовок"><br>
+        <input type="text" class="alert" name="intro" id="intro" placeholder="коротка зміст"><br>
+        <input type="text" class="alert" name="story" id="story" placeholder="основна частина"><br>
+
+        <input type="submit" value="зберегти зміни" class="btn btn-outline-success">
+    </form>
+</div>
+{% endblock %}
